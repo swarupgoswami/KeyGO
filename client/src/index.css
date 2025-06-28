@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+
+*{
+    font-family: "Noto Serif", serif;
+}
+
+@theme {
+  --color-primary: #2563EB;
+  --color-primary-dum: #1F58D8;
+  --color-light: #F1F5F9;
+  --color-bordercolor: #c4c7d2;
+}
