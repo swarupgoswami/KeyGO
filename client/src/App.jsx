@@ -6,6 +6,10 @@ import CarDetails from './pages/CarDetails.jsx'
 import Car from './pages/Car.jsx'
 import MyBookings from './pages/MyBookings.jsx'
 import Footer from './components/Footer.jsx'
+import Layout from './pages/owner/Layout.jsx'
+import AddCar from './pages/owner/AddCar.jsx'
+import ManageCars from './pages/owner/ManageCars.jsx'
+import ManageBooking from './pages/owner/ManageBooking.jsx'
 
 
 
@@ -23,6 +27,14 @@ function App() {
         <Route path="/car-details/:id" element={<CarDetails/>} />
         <Route path="/cars" element={<Car/>} />
         <Route path="/my-bookings" element={<MyBookings/>}/>
+        <Route path='/owner' element={<Layout/>}>
+          <Route path='add-car' element={<AddCar/>}/>
+          <Route path='manage-cars' element={<ManageCars/>}/>
+          <Route path='manage-bookings' element={<ManageBooking/>}/>
+          <Route path='add-car' element={<AddCar/>}/>
+          <Route path='add-car' element={<AddCar/>}/>
+
+        </Route>
       </Routes>
 
       {!isOwnerPath && <Footer/>}
