@@ -17,7 +17,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className='bg-yellow-500 relative min-h-screen md:flex flex-col items-center pt-8 max-w-13 md:max-w-60 w-full border-r border-bordercolor text-sm'>
+    <div className='bg-yellow-500 relative min-h-screen md:flex flex-col items-center pt-8 max-w-13 md:max-w-50 w-full border-r border-bordercolor text-sm'>
 
         <div className="group reltaive ">
             <label htmlFor="image">
