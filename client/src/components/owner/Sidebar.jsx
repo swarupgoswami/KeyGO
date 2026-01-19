@@ -37,7 +37,7 @@ const Sidebar = () => {
         </label>
       </div>
       {image && (
-        <button className="absolute top-1 right-0 flex p-2 gap-1 bg-primary/10 text-primary cursor-pointer">
+        <button className="absolute top-1 right-1 flex p-3 gap-2 bg-primary/10 text-primary cursor-pointer">
           save{" "}
           <img
             src={assets.check_icon}
