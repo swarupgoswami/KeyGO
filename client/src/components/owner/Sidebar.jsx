@@ -31,7 +31,7 @@ const Sidebar = () => {
             }}
           />
 
-          <div className="absolute hidden top-0 right-0 left-0 botom-0 bg-black/10 rounded-full group-hover:flex items-center justify-center cursor-pointer">
+          <div className="absolute hidden top-1 right-1 left-1 botom-1 bg-black/10 rounded-full group-hover:flex items-center justify-center cursor-pointer">
             <img src={assets.edit_icon} alt="" />
           </div>
         </label>
