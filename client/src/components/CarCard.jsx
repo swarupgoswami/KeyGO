@@ -10,7 +10,7 @@ const CarCard = ({car}) => {
     <div onClick={()=>{navigate(`/car-details/${car._id}`);scrollTo(0,0)}} className='group rounded-xl overflow-hidden  shadow-lg hover:translate-y-1 transition-all duration-500 cursor-pointer'>
 
 
-        <div className="relative h-50 overflow-hidden">
+        <div className="relative h-90 overflow-hidden">
            <img src={car.image} alt="car icon" className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'/>
 
            {car.isAvailable && <p className='absolute top-4 left-4 bg-primary/90 text-white text-xs px-3.5 py-1 rounded-full'>Available no</p>}
